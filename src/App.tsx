@@ -29,8 +29,8 @@ const App: React.FC = () => {
 
   return (
     <React.Fragment>
-      <TodoList todos={todos} toggleTodo={toggleTodo} />
       <AddTodoForm addTodo={addTodo} />
+      <TodoList todos={todos} toggleTodo={toggleTodo} />
     </React.Fragment>
   );
 };
